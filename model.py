@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
-import pdb
 class GaussianFourierProjection(nn.Module):
   """Gaussian random features for encoding time steps."""  
   def __init__(self, embed_dim, scale=30.):

@@ -3,7 +3,7 @@ import torch.nn as nn
 import functools
 import numpy as np
  
-device = 'cpu'
+device = 'cpu' 
 
 def marginal_prob_std(t, sigma):
   """Compute the mean and standard deviation of $p_{0t}(x(t) | x(0))$.

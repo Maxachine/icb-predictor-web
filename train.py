@@ -5,7 +5,6 @@ from tqdm import trange
 from model import ScoreNet
 from utils import marginal_prob_std_fn,device,loss_fn
 import numpy as np
-import pdb
  
 
 class MedicalDataset(Dataset):
